@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OED - by The Human Matrix Group</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+        <div id="nav">
+            <div class="navbar">
+                <nav>
+                    <div class="logo">
+                        <h1>O.e.d</h1>
+                        <div class="nav-content">
+                            <div class="nav-links">
+                                <p><span><a href="#home">Home</a></span></p>
+                                <p><span><a href="#content">Content</a></span></p>
+                                <p><span><a href="#contact">Contact</a></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!--Home-->
+
+        <div id="home">
+            <div id="main">
+            <div id="page1">
+                <div class="page1">
+                    <div class="page1-col1">
+                        <h1>Organ Education <br> Database</h1>
+                        <p><span>o.e.d</span> : Where Healing Begins.</p>
+                    </div>
+                    <div class="page1-col2">
+                        <img src="images/oed.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---Content-->
+
+    <div id="content">
+        <div class="main">           
+            <ul class="accordion">
+                <li>
+                    <input type="radio" name="accordion" id="first">
+                    <label for="first">Brain</label>
+                    <div class="content">
+                        <div class="content-col1">
+                            <img src="./images/brain.jpg">
+                        </div>
+                        <div class="content-col2">
+                            <div class="content-col2">
+                                <div class="tab-content">
+                                    <p class="tab-links active-link" onclick="opentab('b-function')">Function</p>
+                                    <p class="tab-links" onclick="opentab('b-importance')">Importance</p>
+                                    <p class="tab-links" onclick="opentab('b-disease')">Disease</p>
+                                    <p class="tab-links" onclick="opentab('b-remedies')">Remedies</p>
+                                </div>
+    
+                                <div class="tab-contents active-tab" id="b-function">
+                                    <p>The brain sends and receives chemical and electrical signals <br> throughout the body.Different signals control different processes, <br> and your brain interprets each.</p>
+                                </div>
+                                <div class="tab-contents" id="b-importance">
+                                    <p>The brain is a complex organ that controls thought, memory, <br> emotion, touch, motor skills, vision, breathing, temperature, hunger <br> and every process that regulates our body.</p>
+                                </div>
+                                <div class="tab-contents" id="b-disease">
+                                    <ul>
+                                        <li>Alzheimer's Disease.</li>
+                                        <li>Brain Malformations.</li>
+                                        <li>Brain Tumors.</li>
+                                        <li>Concussion.</li>
+                                        <li>Degenerative Nerve Diseases.</li>
+                                        <li>Dementia.</li>
+                                    </ul>
+                                </div>
+                                <div class="tab-contents" id="b-remedies">
+                                        <p>Challenge your mind. Be curious</p>
+                                        <p>Stay in school. Education reduces the risk of cognitive decline and dementia</p>
+                                        <p>Get moving. Engage in regular exercise</p>
+                                        <p>Protect your head. Help prevent an injury to your head.</p>
+                                        <p>Be smoke-free.</p>
+                                        <p>Control your blood pressure.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="second">
+                    <label for="second">Heart</label>
+                    <div class="content">
+                        <div class="content-col1">
+                            <img src="./images/heart.png">
+                        </div>
+                        <div class="content-col2">
+                            <div class="tab-content">
+                                <p class="tab-links active-link" onclick="opentab('h-function')">Function</p>
+                                <p class="tab-links" onclick="opentab('h-importance')">Importance</p>
+                                <p class="tab-links" onclick="opentab('h-disease')">Disease</p>
+                                <p class="tab-links" onclick="opentab('h-remedies')">Remedies</p>
+                            </div>   
+
+                            <div class="tab-contents" id="h-function">
+                                <p>The functions of the heart are to pump blood and oxygen <br> around the body and deliver waste products (carbon dioxide) <br> back to the lungs to be removed.</p>
+                            </div>
+                            <div class="tab-contents" id="h-importance">
+                                <p>The importance of the heart are to pump blood and oxygen <br> around the body and deliver waste products (carbon dioxide) <br> back to the lungs to be removed.</p>
+                            </div>
+                            <div class="tab-contents" id="h-disease">
+                                <ul>
+                                    <li>Coronary Artery Disease (CAD)</li>
+                                    <li>Heart Arrhythmias.</li>
+                                    <li>Heart Failure.</li>
+                                    <li>Heart Valve Disease.</li>
+                                    <li>Pericardial Disease.</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="h-remedies">
+                                <p>Eat a heart-healthy diet.</p>
+                                <p>Get active.</p>
+                                <p>Stay at a healthy weight.</p>
+                                <p>Quit smoking and stay away from secondhand smoke.</p>
+                                <p>Control your cholesterol, blood glucose (sugar), and blood pressure.</p>
+                                <p>Drink alcohol only in moderation.</p>
+                                <p>Manage stress.</p>
+                                <p>Get enough sleep.</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="third">
+                    <label for="third">Lungs</label>
+                    <div class="content">
+                        <div class="content-col1">
+                            <img src="./images/lungs.jpg">
+                        </div>
+                        <div class="content-col2">
+                            <div class="tab-content">
+                                <p class="tab-links active-link" onclick="opentab('l-function')">Function</p>
+                                <p class="tab-links" onclick="opentab('l-importance')">Importance</p>
+                                <p class="tab-links" onclick="opentab('l-disease')">Disease</p>
+                                <p class="tab-links" onclick="opentab('l-remedies')">Remedies</p>
+                            </div>   
+
+                            <div class="tab-contents" id="l-function">
+                                <p>The lungs and respiratory system allow oxygen in the air <br> to be taken into the body, while also letting the body get rid <br> of carbon dioxide in the air breathed out.</p>
+                            </div>
+                            <div class="tab-contents" id="l-importance">
+                                <p>The lungs and respiratory system allow us to breathe. <br> They bring oxygen into our bodies (called inspiration, or inhalation) <br> and send carbon dioxide out (called expiration, or exhalation).</p>
+                            </div>
+                            <div class="tab-contents" id="l-disease">
+                                <ul>
+                                    <li>Asthma</li>
+                                    <li>Pneumothorax</li>
+                                    <li>Bronchitis</li>
+                                    <li>Lung Cancer</li>
+                                    <li>Pulmonary Edema</li>
+                                    <li>Pneumonia</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="l-remedies">
+                                <p>Stop Smoking (and avoid secondhand smoke).</p>
+                                <p>Exercise regularly.</p>
+                                <p>Maintain a healthy diet and stay hydrated.</p>
+                                <p>Get annual check-ups.</p>
+                                <p>Stay up to date with vaccinations.</p>
+                                <p>Drink alcohol only in moderation.</p>
+                                <p>Avoid outdoor air pollution exposure.</p>
+                                <p>Improve indoor air quality.</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="forth">
+                    <label for="forth">Kidney</label>
+                    <div class="content">
+                        <div class="content-col1">
+                            <img src="./images/kidney.jpg">
+                        </div>
+                        <div class="content-col2">
+                            <div class="tab-content">
+                                <p class="tab-links active-link" onclick="opentab('k-function')">Function</p>
+                                <p class="tab-links" onclick="opentab('k-importance')">Importance</p>
+                                <p class="tab-links" onclick="opentab('k-disease')">Disease</p>
+                                <p class="tab-links" onclick="opentab('k-remedies')">Remedies</p>
+                            </div>   
+
+                            <div class="tab-contents" id="k-function">
+                                <p>Kidneys are a special filter system for your body. <br> Kidneys remove waste products from the blood and produce urine. <br> Kidneys control the levels of many substances in the blood. <br> Kidneys help to control your blood pressure.</p>
+                            </div>
+                            <div class="tab-contents" id="k-importance">
+                                <p>Kidneys remove waste products from the blood and produce <br> urine. Kidneys control the levels of many substances in the blood. <br> Kidneys help to control your blood pressure</p>
+                            </div>
+                            <div class="tab-contents" id="k-disease">
+                                <ul>
+                                    <li>Acquired Cystic Kidney Disease.</li>
+                                    <li>Amyloidosis & Kidney Disease.</li>
+                                    <li>Diabetes Insipidus.</li>
+                                    <li>Ectopic Kidney.</li>
+                                    <li>Glomerular Disease.</li>
+                                    <li>Anti-GBM (Goodpasture's) Disease.</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="k-remedies">
+                                <p>Eat a heart-healthy diet.</p>
+                                <p>Get active.</p>
+                                <p>Stay at a healthy weight.</p>
+                                <p>Quit smoking and stay away from secondhand smoke.</p>
+                                <p>Control your cholesterol, blood glucose (sugar), and blood pressure.</p>
+                                <p>Drink alcohol only in moderation.</p>
+                                <p>Manage stress.</p>
+                                <p>Get enough sleep.</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="fifth">
+                    <label for="fifth">Liver</label>
+                    <div class="content">
+                        <div class="content-col1">
+                            <img src="./images/liver.jpg">
+                        </div>
+                        <div class="content-col2">
+                            <div class="tab-content">
+                                <p class="tab-links active-link" onclick="opentab('li-function')">Function</p>
+                                <p class="tab-links" onclick="opentab('li-importance')">Importance</p>
+                                <p class="tab-links" onclick="opentab('li-disease')">Disease</p>
+                                <p class="tab-links" onclick="opentab('li-remedies')">Remedies</p>
+                            </div>   
+
+                            <div class="tab-contents" id="li-function">
+                                <p>The functions of the heart are to pump blood and oxygen <br> around the body and deliver waste products (carbon dioxide) <br> back to the lungs to be removed.</p>
+                            </div>
+                            <div class="tab-contents" id="li-importance">
+                                <p>The importance of the heart are to pump blood and oxygen <br> around the body and deliver waste products (carbon dioxide) <br> back to the lungs to be removed.</p>
+                            </div>
+                            <div class="tab-contents" id="li-disease">
+                                <ul>
+                                    <li>Coronary Artery Disease (CAD)</li>
+                                    <li>Heart Arrhythmias.</li>
+                                    <li>Heart Failure.</li>
+                                    <li>Heart Valve Disease.</li>
+                                    <li>Pericardial Disease.</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="li-remedies">
+                                <p>Eat a heart-healthy diet.</p>
+                                <p>Get active.</p>
+                                <p>Stay at a healthy weight.</p>
+                                <p>Quit smoking and stay away from secondhand smoke.</p>
+                                <p>Control your cholesterol, blood glucose (sugar), and blood pressure.</p>
+                                <p>Drink alcohol only in moderation.</p>
+                                <p>Manage stress.</p>
+                                <p>Get enough sleep.</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="sixth">
+                    <label for="sixth">Stomach</label>
+                    <div class="content">
+                        <div class="content-col1">
+                            <img src="./images/stomach.jpg">
+                        </div>
+                        <div class="content-col2">
+                            <div class="tab-content">
+                                <p class="tab-links active-link" onclick="opentab('s-function')">Function</p>
+                                <p class="tab-links" onclick="opentab('s-importance')">Importance</p>
+                                <p class="tab-links" onclick="opentab('s-disease')">Disease</p>
+                                <p class="tab-links" onclick="opentab('s-remedies')">Remedies</p>
+                            </div>   
+
+                            <div class="tab-contents" id="s-function">
+                                <p>The functions of the heart are to pump blood and oxygen <br> around the body and deliver waste products (carbon dioxide) <br> back to the lungs to be removed.</p>
+                            </div>
+                            <div class="tab-contents" id="s-importance">
+                                <p>The importance of the heart are to pump blood and oxygen <br> around the body and deliver waste products (carbon dioxide) <br> back to the lungs to be removed.</p>
+                            </div>
+                            <div class="tab-contents" id="s-disease">
+                                <ul>
+                                    <li>Coronary Artery Disease (CAD)</li>
+                                    <li>Heart Arrhythmias.</li>
+                                    <li>Heart Failure.</li>
+                                    <li>Heart Valve Disease.</li>
+                                    <li>Pericardial Disease.</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="s-remedies">
+                                <p>Eat a heart-healthy diet.</p>
+                                <p>Get active.</p>
+                                <p>Stay at a healthy weight.</p>
+                                <p>Quit smoking and stay away from secondhand smoke.</p>
+                                <p>Control your cholesterol, blood glucose (sugar), and blood pressure.</p>
+                                <p>Drink alcohol only in moderation.</p>
+                                <p>Manage stress.</p>
+                                <p>Get enough sleep.</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="seventh">
+                    <label for="seventh">Intestines</label>
+                    <div class="content">
+                        <div class="content-col1">
+                            <img src="./images/intestines.jpg">
+                        </div>
+                        <div class="content-col2">
+                            <div class="tab-content">
+                                <p class="tab-links active-link" onclick="opentab('i-function')">Function</p>
+                                <p class="tab-links" onclick="opentab('i-importance')">Importance</p>
+                                <p class="tab-links" onclick="opentab('i-disease')">Disease</p>
+                                <p class="tab-links" onclick="opentab('i-remedies')">Remedies</p>
+                            </div>   
+
+                            <div class="tab-contents" id="i-function">
+                                <p>The functions of the heart are to pump blood and oxygen <br> around the body and deliver waste products (carbon dioxide) <br> back to the lungs to be removed.</p>
+                            </div>
+                            <div class="tab-contents" id="i-importance">
+                                <p>The importance of the heart are to pump blood and oxygen <br> around the body and deliver waste products (carbon dioxide) <br> back to the lungs to be removed.</p>
+                            </div>
+                            <div class="tab-contents" id="i-disease">
+                                <ul>
+                                    <li>Coronary Artery Disease (CAD)</li>
+                                    <li>Heart Arrhythmias.</li>
+                                    <li>Heart Failure.</li>
+                                    <li>Heart Valve Disease.</li>
+                                    <li>Pericardial Disease.</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="i-remedies">
+                                <p>Eat a heart-healthy diet.</p>
+                                <p>Get active.</p>
+                                <p>Stay at a healthy weight.</p>
+                                <p>Quit smoking and stay away from secondhand smoke.</p>
+                                <p>Control your cholesterol, blood glucose (sugar), and blood pressure.</p>
+                                <p>Drink alcohol only in moderation.</p>
+                                <p>Manage stress.</p>
+                                <p>Get enough sleep.</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="eighth">
+                    <label for="eighth">Skin</label>
+                    <div class="content">
+                        <div class="content-col1">
+                            <img src="./images/skin.jpg">
+                        </div>
+                        <div class="content-col2">
+                            <div class="tab-content">
+                                <p class="tab-links active-link" onclick="opentab('sk-function')">Function</p>
+                                <p class="tab-links" onclick="opentab('sk-importance')">Importance</p>
+                                <p class="tab-links" onclick="opentab('sk-disease')">Disease</p>
+                                <p class="tab-links" onclick="opentab('sk-remedies')">Remedies</p>
+                            </div>   
+
+                            <div class="tab-contents" id="sk-function">
+                                <p>The functions of the heart are to pump blood and oxygen <br> around the body and deliver waste products (carbon dioxide) <br> back to the lungs to be removed.</p>
+                            </div>
+                            <div class="tab-contents" id="sk-importance">
+                                <p>The importance of the heart are to pump blood and oxygen <br> around the body and deliver waste products (carbon dioxide) <br> back to the lungs to be removed.</p>
+                            </div>
+                            <div class="tab-contents" id="sk-disease">
+                                <ul>
+                                    <li>Coronary Artery Disease (CAD)</li>
+                                    <li>Heart Arrhythmias.</li>
+                                    <li>Heart Failure.</li>
+                                    <li>Heart Valve Disease.</li>
+                                    <li>Pericardial Disease.</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="sk-remedies">
+                                <p>Eat a heart-healthy diet.</p>
+                                <p>Get active.</p>
+                                <p>Stay at a healthy weight.</p>
+                                <p>Quit smoking and stay away from secondhand smoke.</p>
+                                <p>Control your cholesterol, blood glucose (sugar), and blood pressure.</p>
+                                <p>Drink alcohol only in moderation.</p>
+                                <p>Manage stress.</p>
+                                <p>Get enough sleep.</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--Contact---> 
+
+    <div id="contact">
+        <div class="main">
+
+        </div>
+    </div>
+
+    <a class="go-top-btn" href="#nav"> <i class="fa-solid fa-arrow-up"></i> </a>
+
+
+    <!---Java Script-->
+
+    <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname) {
+                for(tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+    </script>
+</body>
+</html>
